@@ -31,3 +31,4 @@ Cuando se abra el emulador de celular con la aplicación, veremos 3 botones:
 
 Cada uno de estos botones nos redireccionará a un sitio web en el cual encontraremos
 nuestro currículum.
+bawa verde
