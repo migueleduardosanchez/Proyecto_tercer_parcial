@@ -31,15 +31,17 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Uri _link2 = Uri.parse(_url);
                 Intent i = new Intent(Intent.ACTION_VIEW, _link2);
+                startActivity(i);
             }
         });
 
         _a324795 = findViewById(R.id.a324795);
         _a324795.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
-                //Uri _link1 = Uri.parse(_url324795);
+                Uri _link1 = Uri.parse(_url324795);
                 Log.d("click", "ok");
                 Intent i = new Intent(Intent.ACTION_VIEW, _link1);
+                startActivity(i);
             }
         });
     }
