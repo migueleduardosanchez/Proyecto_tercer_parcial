@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
     String _url = "https://fairygarbage.github.io/CV/";
     String _url324795 = "https://migueleduardosanchez.github.io/";
-    String _url339079 = "https://github.com/c-basstian/Mi-cv";
+    String _url339079 = "https://c-basstian.github.io/ccvv/";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
