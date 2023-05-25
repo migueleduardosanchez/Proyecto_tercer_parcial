@@ -15,9 +15,11 @@ public class MainActivity extends AppCompatActivity {
 
     private Button _btn_link2;
     private Button _a324795;
+    private Button _a339079;
 
     String _url = "https://fairygarbage.github.io/CV/";
     String _url324795 = "https://migueleduardosanchez.github.io/";
+    String _url339079 = "https://github.com/c-basstian/Mi-cv";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,8 +41,16 @@ public class MainActivity extends AppCompatActivity {
         _a324795.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
                 Uri _link1 = Uri.parse(_url324795);
-                Log.d("click", "ok");
                 Intent i = new Intent(Intent.ACTION_VIEW, _link1);
+                startActivity(i);
+            }
+        });
+
+        _a339079 = findViewById(R.id.a339079);
+        _a339079.setOnClickListener(new View.OnClickListener(){
+            public void onClick(View v){
+                Uri _link3 = Uri.parse(_url339079);
+                Intent i = new Intent(Intent.ACTION_VIEW, _link3);
                 startActivity(i);
             }
         });
